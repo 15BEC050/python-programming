@@ -1,3 +1,4 @@
-a="Hello World"
-for i in range(3):
-    print(a)
+string="hello"
+x=int(input("enter the value:"))
+for i in range(x):
+    print(string)

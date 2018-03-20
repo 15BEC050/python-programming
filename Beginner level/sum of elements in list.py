@@ -1,11 +1,17 @@
-input = []
-sum=0
-s=int(raw_input())
-k=int(raw_input())
-for i in range(s):
+def main():
+   arr = []
+   sum=0
+   n=int(raw_input())
+   k=int(raw_input())
+   for i in range(n):
     a=int(raw_input())
-    input.append(a)
+    arr.append(a)
     print(a)
-for i in range(k):
+   for i in range(k):
     sum=sum + a
-    print(sum)
+   print(sum)
+
+
+
+if __name__ == '__main__':
+    main()

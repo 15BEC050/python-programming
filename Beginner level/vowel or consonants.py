@@ -1,6 +1,6 @@
 string=raw_input()
-r=["a","e","i","o","u"]
-if(string in r):
-    print("vowels")
+list=["a","e","i","o","u"]
+if(string in list):
+    print("Vowels")
 else:
-    print("consonants")
+    print("Consonants")
